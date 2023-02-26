@@ -507,6 +507,7 @@ h6 {
   padding: 40px 32px 0px 32px;
   transform: translateY(100%);
   transition: transform 250ms;
+  color: var(--white-three);
 }
 .projects-link:hover .projects-description {
   transform: translateY(0%);
@@ -547,6 +548,19 @@ h6 {
 }
 
 /*modal*/
+
+.backdrob {
+  display: block;
+  position: fixedd;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+  width: 1440px;
+  height: 677px;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
 .close-icon {
   width: 8px;
   height: 8px;
