@@ -36,9 +36,7 @@
               <a class="header-links current" href="./index.html">Studio</a>
             </li>
             <li class="link-item">
-              <a class="header-links" href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="header-links" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="link-item">
               <a class="header-links" href="">Contacts</a>
@@ -67,7 +65,9 @@
       <section class="section-hero section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="main-button" type="button">Order Service</button>
+          <button data-modal-open class="main-button" type="button">
+            Order Service
+          </button>
         </div>
       </section>
       <!--преимущества-->
@@ -428,5 +428,22 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrob is-hidden" data-modal>
+      <div class="modal">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          perspiciatis debitis est cumque nostrum odio! Nihil mollitia nisi
+          tenetur aliquid, pariatur tempore delectus possimus quas placeat
+          consequatur nobis, distinctio ab?
+        </p>
+        <button class="modal-close" data-modal-close type="button">
+          <svg class="close-icon">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
